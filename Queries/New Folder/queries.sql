@@ -235,9 +235,22 @@ SELECT ce.emp_no,
 ce.first_name,
 ce.last_name,
 d.dept_name
-INTO dept_info
+--INTO dept_info
 FROM current_emp as ce
 INNER JOIN dept_emp AS de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
+
+
+
+
+select ri.emp_no, ri.first_name, ri.last_name, d.dept_name 
+INTO retirement_info_Sales_and_Development_teams
+from 
+retirement_info AS ri INNER JOIN dept_emp AS de ON 
+(ri.emp_no=de.emp_no) INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no) where d.dept_name in ('Sales','Development')
+
+
+
