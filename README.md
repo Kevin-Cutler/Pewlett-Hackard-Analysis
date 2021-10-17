@@ -13,21 +13,21 @@ ________________
 * The number of retiring employees per title who are eligible for the retirement package. I created the retirement titles table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955. 
 
 
-![] (Pewlett_Hackard_Analysis_Project_Folder/Retirement_1952_1955.PNG)
+![](Pewlett_Hackard_Analysis_Project_Folder/Retirement_1952_1955.PNG)
 
 
 * I determined the count of retiring employees by title. This will determine the positions still open to fill.I used the COUNT() function to create a final table that has the number of retirement-age employees by most recent job title. 
 
-![] (Pewlett_Hackard_Analysis_Project_Folder/Retire_Count.PNG)
+![](Pewlett_Hackard_Analysis_Project_Folder/Retire_Count.PNG)
 
 
  * Create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
- ![] (Pewlett_Hackard_Analysis_Project_Folder/Mentorship_Eligibile_emp.PNG)
+ ![](Pewlett_Hackard_Analysis_Project_Folder/Mentorship_Eligibile_emp.PNG)
 
 ## Summary:
 
 
 From the data we were able to gather, I have calculated that there are 90398 employees who will be eligible for the retirement package at Pewlett Hackard. I believe that the date range of employees selected for the mentorship program may be too narrow. Pewlett is a large comnpany and I calculated that there are a little over 1500 employees available to mentor the up an coming employees. I think a solution to this would be for Pewlett to increase the date range of employees to be selected as mentors to to fit the number of employees still to remain within the company. Below provided is a new table and query with wider age range, this gap can be increased to early 1961 to 1965 and continue with a consulting opportunity for older employees.
 
-![] (Pewlett_Hackard_Analysis_Project_Folder/New_Mentors.PNG)
+![](Pewlett_Hackard_Analysis_Project_Folder/New_Mentors.PNG)
