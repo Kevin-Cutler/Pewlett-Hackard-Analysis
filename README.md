@@ -1,6 +1,6 @@
 # Pewlett-Hackard-Analysis
 
-The written analysis has the following:
+
 
 ## Overview of the analysis: Explain the purpose of this analysis.
 
